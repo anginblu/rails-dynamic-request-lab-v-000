@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  resources :students, students#index
-  show]
+  resources :students, => [:index, :show]
 end
